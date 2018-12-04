@@ -67,4 +67,4 @@ private class Claim(
     val point: Point,
     val size: Dimension,
     val contentId: String
-) 
+)
