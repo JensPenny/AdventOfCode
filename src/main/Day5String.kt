@@ -5,10 +5,14 @@ import util.readAsResource
 fun main(args: Array<String>) {
     val lines = readAsResource("day5")
     val reduced = reduceInput(lines.first())
+    val start = System.currentTimeMillis()
     println(reduced.length)
+    println("Solution found in " + (System.currentTimeMillis() - start) + " ms")
 
+    val start2 = System.currentTimeMillis()
     val secondPuzzle = findMinimal(lines.first())
     println(secondPuzzle.length)
+    println("Solution found in " + (System.currentTimeMillis() - start2) + " ms")
 }
 
 fun findMinimal(input: String): String {
