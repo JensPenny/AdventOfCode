@@ -1,5 +1,8 @@
 package main
 
+import main.onetoten.createNodes
+import main.onetoten.solvePart1
+import main.onetoten.solvePart2
 import kotlin.test.assertEquals
 
 fun main(args: Array<String>) {

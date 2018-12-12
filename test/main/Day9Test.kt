@@ -1,5 +1,8 @@
 package main
 
+import main.onetoten.calculateWithLinks
+import main.onetoten.maxScore
+import main.onetoten.readInput
 import kotlin.test.assertEquals
 
 
@@ -26,5 +29,7 @@ fun testPart1(){
 
 fun doTest(expected: Int, input: String){
     val game = readInput(input)
-    assertEquals(expected.toBigInteger(), maxScore(calculateWithLinks(game.first, game.second)))
+    assertEquals(expected.toBigInteger(),
+        maxScore(calculateWithLinks(game.first, game.second))
+    )
 }

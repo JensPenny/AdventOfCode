@@ -1,5 +1,7 @@
 package main
 
+import main.onetoten.findMinimal
+import main.onetoten.reduceInput
 import kotlin.test.assertEquals
 
 fun main(args: Array<String>){

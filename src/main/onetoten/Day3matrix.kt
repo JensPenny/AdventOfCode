@@ -1,4 +1,4 @@
-package main
+package main.onetoten
 
 import util.readAsResource
 import java.awt.Dimension

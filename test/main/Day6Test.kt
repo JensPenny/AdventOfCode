@@ -1,5 +1,8 @@
 package main
 
+import main.onetoten.countMaxSize
+import main.onetoten.fillField
+import util.printMatrix
 import kotlin.test.assertEquals
 
 fun main(args : Array<String>) {
@@ -16,7 +19,7 @@ fun testPuzzle1() {
 
 
     val field = fillField(input.split("\n"), 10)
-    printField(field)
+    printMatrix(field)
     val maxFieldSize = countMaxSize(field)
     assertEquals(17, maxFieldSize)
 }

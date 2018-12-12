@@ -1,4 +1,4 @@
-package main
+package main.onetoten
 
 import util.readAsResource
 import java.awt.Point
@@ -84,16 +84,6 @@ private fun toFieldList(input: List<String>): List<Field> {
         )
     }
     return fields
-}
-
-fun printField(field: Array<IntArray>) {
-    for (x in 0 until field.size) {
-        for (y in 0 until field[x].size) {
-            val value = if (field[x][y] == -1) "." else field[x][y].toString()
-            print("$value ")
-        }
-        print("\n")
-    }
 }
 
 fun countMaxSize(field: Array<IntArray>): Int {

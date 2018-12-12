@@ -1,4 +1,4 @@
-package main
+package main.onetoten
 
 import util.readAsResource
 import java.math.BigInteger
@@ -142,7 +142,7 @@ class Link(val value: Int) {
     var previous: Link? = null
     var next: Link? = null
 
-    fun remove() : Link{
+    fun remove() : Link {
         if (previous != null) {
             previous!!.next = next
         }

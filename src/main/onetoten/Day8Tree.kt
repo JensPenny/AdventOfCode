@@ -1,6 +1,5 @@
-package main
+package main.onetoten
 
-import jdk.nashorn.api.tree.Tree
 import util.readAsResource
 import java.util.stream.Collectors
 

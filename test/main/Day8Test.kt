@@ -1,5 +1,9 @@
 package main
 
+import main.onetoten.TreeNode
+import main.onetoten.calculateMetadataSum
+import main.onetoten.calculateValue
+import main.onetoten.createTree
 import kotlin.test.assertEquals
 
 fun main(args: Array<String>) {
