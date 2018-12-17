@@ -1,5 +1,5 @@
 package main.kotlinECS
 
 interface EntitySystem {
-    fun applySystem(entities: Collection<Entity>)
+    fun applySystem(entities: MutableCollection<Entity>)
 }
