@@ -4,6 +4,7 @@ import main.Direction.*
 import main.kotlinECS.Component
 import main.kotlinECS.Entity
 import main.kotlinECS.EntitySystem
+import main.kotlinECS.components.Position
 import util.readAsResource
 import java.awt.Point
 import java.util.*
@@ -103,13 +104,6 @@ enum class Direction {
         }
     }
 
-}
-
-//Components used in this assignment
-data class Position(val x: Int, val y: Int) : Component {
-    fun asPoint(): Point {
-        return Point(x, y)
-    }
 }
 
 data class Track(
